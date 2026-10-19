@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "source": "Douleb/SDXL-A1111-Styles (MIT License)",
+  "categories": [
+    {
+      "id": "generic",
+      "name": "Generic Styles",
+      "icon": "paintbrush",
+      "subcategories": [
+        {
+          "id": "artistic",
+          "name": "Artistic",
+          "styles": [
+            {
+              "id": "enhance",
+              "name": "Enhance",
+              "description": "Award-winning professional quality enhancement",
+              "prompt": "breathtaking {prompt} . award-winning, professional, highly detailed",
+              "negativePrompt": "ugly, deformed, noisy, blurry, distorted, grainy",
+              "tags": ["quality", "professional", "detailed"]
+            },
+            {
+              "id": "digital-art",
+              "name": "Digital Art",
+              "description": "Concept art and digital illustration style",
+              "prompt": "concept art {prompt} . digital artwork, illustrative, painterly, matte painting, highly detailed",
+              "negativePrompt": "photo, photorealistic, realism, ugly",
+              "tags": ["digital", "concept", "illustration"]
+            },
+            {
+              "id": "fantasy-art",
+              "name": "Fantasy Art",
+              "description": "Ethereal, magical fantasy artwork",
+              "prompt": "ethereal fantasy concept art of {prompt} . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy",
+              "negativePrompt": "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white",
+              "tags": ["fantasy", "magical", "ethereal", "epic"]
+            }
+          ]
+        },
+        {
+          "id": "animation",
+          "name": "Animation & Comics",
+          "styles": [
+            {
+              "id": "anime",
+              "name": "Anime",
+              "description": "Japanese anime visual style",
+              "prompt": "anime artwork {prompt} . anime style, key visual, vibrant, studio anime, highly detailed",
+              "negativePrompt": "photo, deformed, black and white, realism, disfigured, low contrast",
+              "tags": ["anime", "japanese", "vibrant"]
+            },
+            {
+              "id": "comic-book",
+              "name": "Comic Book",
+              "description": "Western comic book illustration",
+              "prompt": "comic {prompt} . graphic illustration, comic art, graphic novel art, vibrant, highly detailed",
+              "negativePrompt": "photograph, deformed, glitch, noisy, realistic, stock photo",
+              "tags": ["comic", "graphic novel", "illustration"]
+            }
+          ]
+        },
+        {
+          "id": "photography",
+          "name": "Photography",
+          "styles": [
+            {
+              "id": "photographic",
+              "name": "Photographic",
+              "description": "35mm cinematic film photography",
+              "prompt": "cinematic photo {prompt} . 35mm photograph, film, bokeh, professional, 4k, highly detailed",
+              "negativePrompt": "drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly",
+              "tags": ["photo", "cinematic", "film", "35mm"]
+            },
+            {
+              "id": "analog-film",
+              "name": "Analog Film",
+              "description": "Vintage analog film aesthetic",
+              "prompt": "analog film photo {prompt} . faded film, desaturated, 35mm photo, grainy, vignette, vintage, Kodachrome, Lomography, stained, highly detailed, found footage",
+              "negativePrompt": "painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured",
+              "tags": ["vintage", "film", "analog", "retro", "kodachrome"]
+            },
+            {
+              "id": "cinematic",
+              "name": "Cinematic",
+              "description": "Hollywood movie still aesthetic",
+              "prompt": "cinematic film still {prompt} . shallow depth of field, vignette, highly detailed, high budget Hollywood movie, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+              "negativePrompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+              "tags": ["cinematic", "movie", "hollywood", "epic"]
+            }
+          ]
+        },
+        {
+          "id": "stylized",
+          "name": "Stylized",
+          "styles": [
+            {
+              "id": "neonpunk",
+              "name": "Neonpunk",
+              "description": "Cyberpunk vaporwave neon aesthetic",
+              "prompt": "neonpunk style {prompt} . cyberpunk, vaporwave, neon, vibes, vibrant, stunningly beautiful, crisp, detailed, sleek, ultramodern, magenta highlights, dark purple shadows, high contrast, cinematic, ultra detailed, intricate, professional",
+              "negativePrompt": "painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured",
+              "tags": ["cyberpunk", "neon", "vaporwave", "futuristic"]
+            },
+            {
+              "id": "isometric",
+              "name": "Isometric",
+              "description": "Isometric perspective illustration",
+              "prompt": "isometric style {prompt} . vibrant, beautiful, crisp, detailed, ultra detailed, intricate",
+              "negativePrompt": "deformed, mutated, ugly, disfigured, blur, blurry, noise, noisy, realistic, photographic",
+              "tags": ["isometric", "3d", "perspective"]
+            },
+            {
+              "id": "lowpoly",
+              "name": "Low Poly",
+              "description": "Low polygon 3D game art style",
+              "prompt": "low-poly style {prompt} . low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition",
+              "negativePrompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo",
+              "tags": ["lowpoly", "3d", "game", "geometric"]
+            },
+            {
+              "id": "pixel-art",
+              "name": "Pixel Art",
+              "description": "Retro 8-bit pixel art style",
+              "prompt": "pixel-art {prompt} . low-res, blocky, pixel art style, 8-bit graphics",
+              "negativePrompt": "sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic",
+              "tags": ["pixel", "retro", "8bit", "game"]
+            }
+          ]
+        },
+        {
+          "id": "crafts",
+          "name": "Crafts & Materials",
+          "styles": [
+            {
+              "id": "origami",
+              "name": "Origami",
+              "description": "Paper folding art style",
+              "prompt": "origami style {prompt} . paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition",
+              "negativePrompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo",
+              "tags": ["origami", "paper", "craft", "folded"]
+            },
+            {
+              "id": "craft-clay",
+              "name": "Craft Clay",
+              "description": "Play-doh claymation style",
+              "prompt": "play-doh style {prompt} . sculpture, clay art, centered composition, Claymation",
+              "negativePrompt": "sloppy, messy, grainy, highly detailed, ultra textured, photo",
+              "tags": ["clay", "sculpture", "claymation", "craft"]
+            },
+            {
+              "id": "line-art",
+              "name": "Line Art",
+              "description": "Clean minimalist line drawings",
+              "prompt": "line art drawing {prompt} . professional, sleek, modern, minimalist, graphic, line art, vector graphics",
+              "negativePrompt": "anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic",
+              "tags": ["lineart", "vector", "minimalist", "clean"]
+            },
+            {
+              "id": "3d-model",
+              "name": "3D Model",
+              "description": "Professional 3D rendered model",
+              "prompt": "professional 3d model {prompt} . octane render, highly detailed, volumetric, dramatic lighting",
+              "negativePrompt": "ugly, deformed, noisy, low poly, blurry, painting",
+              "tags": ["3d", "render", "octane", "model"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cultural",
+      "name": "Cultural Styles",
+      "icon": "globe",
+      "subcategories": []
+    },
+    {
+      "id": "movies",
+      "name": "Movie Styles",
+      "icon": "film",
+      "subcategories": []
+    },
+    {
+      "id": "anime-manga",
+      "name": "Anime & Manga",
+      "icon": "sparkles",
+      "subcategories": []
+    }
+  ]
+}

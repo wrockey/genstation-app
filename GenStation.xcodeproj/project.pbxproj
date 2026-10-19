@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A908762E2EE23D550082EF36 /* SWCompression in Frameworks */ = {isa = PBXBuildFile; productRef = A908762D2EE23D550082EF36 /* SWCompression */; };
+		A9B4ADA53016A47B00A24E1E /* GenStationCore in Frameworks */ = {isa = PBXBuildFile; productRef = A9B4ADA43016A47B00A24E1E /* GenStationCore */; };
+		D0C0FFEE000000000000000A /* genstation-mcp in Embed Helpers */ = {isa = PBXBuildFile; fileRef = D0C0FFEE0000000000000010 /* genstation-mcp launcher */; platformFilter = macos; };
+		D0C0FFEE0000000000000020 /* MCPStdioServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0FFEE0000000000000030 /* MCPStdioServer.swift */; platformFilter = macos; };
+		D0C0FFEE0000000000000021 /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0FFEE0000000000000031 /* SocketClient.swift */; platformFilter = macos; };
+		D0C0FFEE0000000000000022 /* AgentDocumentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0FFEE0000000000000032 /* AgentDocumentation.swift */; platformFilter = macos; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0C0FFEE000000000000000C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C6766F2E63291C0017029B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C0FFEE0000000000000002;
+			remoteInfo = "genstation-mcp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0C0FFEE0000000000000009 /* Embed Helpers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(GENSTATION_MCP_EMBED_DIR)";
+			dstSubfolderSpec = 1;
+			files = (
+				D0C0FFEE000000000000000A /* genstation-mcp in Embed Helpers */,
+			);
+			name = "Embed Helpers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9C676772E63291C0017029B /* GenStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C0FFEE0000000000000005 /* genstation-mcp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "genstation-mcp"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C0FFEE0000000000000010 /* genstation-mcp launcher */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "genstation-mcp"; path = "tools/genstation-mcp/launcher/genstation-mcp"; sourceTree = SOURCE_ROOT; };
+		D0C0FFEE0000000000000030 /* MCPStdioServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MCPStdioServer.swift"; path = "tools/genstation-mcp/MCPStdioServer.swift"; sourceTree = SOURCE_ROOT; };
+		D0C0FFEE0000000000000031 /* SocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SocketClient.swift"; path = "tools/genstation-mcp/SocketClient.swift"; sourceTree = SOURCE_ROOT; };
+		D0C0FFEE0000000000000032 /* AgentDocumentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AgentDocumentation.swift"; path = "tools/genstation-mcp/AgentDocumentation.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D0C0FFEE0000000000000050 /* Exclude development files from app */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				CLAUDE.md,
+				".claude/settings.local.json",
+			);
+			target = A9C676762E63291C0017029B /* GenStation */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A9C676792E63291C0017029B /* GenStation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (D0C0FFEE0000000000000050 /* Exclude development files from app */,);
+			path = GenStation;
+			sourceTree = "<group>";
+		};
+		D0C0FFEE0000000000000001 /* tools/genstation-mcp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tools/genstation-mcp";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C676742E63291C0017029B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908762E2EE23D550082EF36 /* SWCompression in Frameworks */,
+				A9B4ADA53016A47B00A24E1E /* GenStationCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C0FFEE0000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9C6766E2E63291C0017029B = {
+			isa = PBXGroup;
+			children = (
+				A9C676792E63291C0017029B /* GenStation */,
+				D0C0FFEE0000000000000001 /* tools/genstation-mcp */,
+				A9C676782E63291C0017029B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C676782E63291C0017029B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C676772E63291C0017029B /* GenStation.app */,
+				D0C0FFEE0000000000000005 /* genstation-mcp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C676762E63291C0017029B /* GenStation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C676832E63291D0017029B /* Build configuration list for PBXNativeTarget "GenStation" */;
+			buildPhases = (
+				A9C676732E63291C0017029B /* Sources */,
+				A9C676742E63291C0017029B /* Frameworks */,
+				A9C676752E63291C0017029B /* Resources */,
+				D0C0FFEE0000000000000009 /* Embed Helpers */,
+				D0C0FFEE0000000000000040 /* Link MCP Launcher */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A9C676792E63291C0017029B /* GenStation */,
+			);
+			name = GenStation;
+			packageProductDependencies = (
+				A908762D2EE23D550082EF36 /* SWCompression */,
+				A9B4ADA43016A47B00A24E1E /* GenStationCore */,
+			);
+			productName = GenStation;
+			productReference = A9C676772E63291C0017029B /* GenStation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0C0FFEE0000000000000002 /* genstation-mcp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C0FFEE0000000000000006 /* Build configuration list for PBXNativeTarget "genstation-mcp" */;
+			buildPhases = (
+				D0C0FFEE0000000000000003 /* Sources */,
+				D0C0FFEE0000000000000004 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D0C0FFEE0000000000000001 /* tools/genstation-mcp */,
+			);
+			name = "genstation-mcp";
+			productName = "genstation-mcp";
+			productReference = D0C0FFEE0000000000000005 /* genstation-mcp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C6766F2E63291C0017029B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A9C676762E63291C0017029B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = A9C676722E63291C0017029B /* Build configuration list for PBXProject "GenStation" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9C6766E2E63291C0017029B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A908762C2EE23D550082EF36 /* XCRemoteSwiftPackageReference "SWCompression" */,
+				A9B4ADA33016A47B00A24E1E /* XCLocalSwiftPackageReference "Packages/GenStationCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A9C676782E63291C0017029B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C676762E63291C0017029B /* GenStation */,
+				D0C0FFEE0000000000000002 /* genstation-mcp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C676752E63291C0017029B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0C0FFEE0000000000000040 /* Link MCP Launcher */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			platformFilter = macos;
+			files = ();
+			inputPaths = ("$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/genstation-mcp",);
+			name = "Link MCP Launcher";
+			outputPaths = ("$(TARGET_BUILD_DIR)/$(CONTENTS_FOLDER_PATH)/Helpers/genstation-mcp",);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$PLATFORM_NAME\" != macosx ]; then exit 0; fi\nmkdir -p \"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Helpers\"\nln -sfn ../Resources/genstation-mcp \"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Helpers/genstation-mcp\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C676732E63291C0017029B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0FFEE0000000000000020 /* MCPStdioServer.swift in Sources */,
+				D0C0FFEE0000000000000021 /* SocketClient.swift in Sources */,
+				D0C0FFEE0000000000000022 /* AgentDocumentation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C0FFEE0000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0C0FFEE000000000000000B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = macos;
+			target = D0C0FFEE0000000000000002 /* genstation-mcp */;
+			targetProxy = D0C0FFEE000000000000000C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9C676812E63291D0017029B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9C676822E63291D0017029B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A9C676842E63291D0017029B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GenStation/GenStation.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 19;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					Info.plist,
+					"genstation-mcp",
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=macosx*]" = (
+					Info.plist,
+					LaunchScreen.storyboard,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				GENSTATION_MCP_EMBED_DIR = "";
+				"GENSTATION_MCP_EMBED_DIR[sdk=macosx*]" = Contents/Resources;
+				INFOPLIST_FILE = GenStation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GenStation;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025–2026 William Rockey. Released under the MIT License.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "GenStation needs to discover and connect to your local ComfyUI server on your Wi-Fi network.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "GenStation would like to save your generated images to the Photos library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "GenStation needs permission to save images to Photos.";
+				"INFOPLIST_KEY_UILaunchStoryboardName[sdk=iphoneos*]" = LaunchScreen;
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations[sdk=iphoneos*]" = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.1;
+				GENSTATION_DEMO_STORAGE_ENABLED = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = art.genstation.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9C676852E63291D0017029B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GenStation/GenStation.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 19;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					Info.plist,
+					"genstation-mcp",
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=macosx*]" = (
+					Info.plist,
+					LaunchScreen.storyboard,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				GENSTATION_MCP_EMBED_DIR = "";
+				"GENSTATION_MCP_EMBED_DIR[sdk=macosx*]" = Contents/Resources;
+				INFOPLIST_FILE = GenStation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GenStation;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025–2026 William Rockey. Released under the MIT License.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "GenStation needs to discover and connect to your local ComfyUI server on your Wi-Fi network.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "GenStation would like to save your generated images to the Photos library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "GenStation needs permission to save images to Photos.";
+				"INFOPLIST_KEY_UILaunchStoryboardName[sdk=iphoneos*]" = LaunchScreen;
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations[sdk=iphoneos*]" = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.1;
+				GENSTATION_DEMO_STORAGE_ENABLED = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = art.genstation.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0C0FFEE0000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0C0FFEE0000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C676722E63291C0017029B /* Build configuration list for PBXProject "GenStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C676812E63291D0017029B /* Debug */,
+				A9C676822E63291D0017029B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C676832E63291D0017029B /* Build configuration list for PBXNativeTarget "GenStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C676842E63291D0017029B /* Debug */,
+				A9C676852E63291D0017029B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C0FFEE0000000000000006 /* Build configuration list for PBXNativeTarget "genstation-mcp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C0FFEE0000000000000007 /* Debug */,
+				D0C0FFEE0000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A9B4ADA33016A47B00A24E1E /* XCLocalSwiftPackageReference "Packages/GenStationCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/GenStationCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A908762C2EE23D550082EF36 /* XCRemoteSwiftPackageReference "SWCompression" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tsolomko/SWCompression.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A908762D2EE23D550082EF36 /* SWCompression */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A908762C2EE23D550082EF36 /* XCRemoteSwiftPackageReference "SWCompression" */;
+			productName = SWCompression;
+		};
+		A9B4ADA43016A47B00A24E1E /* GenStationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GenStationCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9C6766F2E63291C0017029B /* Project object */;
+}

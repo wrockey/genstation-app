@@ -1,0 +1,33 @@
+
+# Xcode Userdata PERMA-IGNORE
+**/*.xcuserstate
+**/xcuserdata/
+**/xcuserdatad/
+**/project.xcworkspace/xcuserdata/
+# Xcode build output
+build/
+DerivedData/
+
+# macOS folder settings
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.superpowers/
+
+# SwiftPM build output (Packages/*/.build)
+.build/
+
+# Local demo capture masters and Python tooling caches
+/.demo-media/
+/tools/demo/__pycache__/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Local Claude Code settings
+.claude/settings.local.json

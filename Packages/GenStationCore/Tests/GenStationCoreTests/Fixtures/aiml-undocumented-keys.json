@@ -1,0 +1,251 @@
+{
+ "_readMe": "Recorded baseline, not a bug list. See tools/undocumented_key_baseline.py and spec 4.10. Fixes move the wire and belong in the drift ledger as group-A rows.",
+ "checkedIDCount": 206,
+ "offendingIDCount": 64,
+ "uncheckedIDs": [
+  "bytedance/dola-seedream-5-0-pro"
+ ],
+ "undocumentedKeysByID": {
+  "alibaba/happyhorse-1.0-i2v": [
+   "enhance_prompt",
+   "generate_audio",
+   "negative_prompt",
+   "shot_type"
+  ],
+  "alibaba/happyhorse-1.0-r2v": [
+   "enhance_prompt",
+   "generate_audio",
+   "negative_prompt",
+   "shot_type"
+  ],
+  "alibaba/happyhorse-1.0-t2v": [
+   "enhance_prompt",
+   "generate_audio",
+   "negative_prompt",
+   "shot_type"
+  ],
+  "alibaba/qwen-image": [
+   "enable_safety_checker",
+   "guidance_scale"
+  ],
+  "alibaba/wan-2-6-r2v": [
+   "generate_audio"
+  ],
+  "alibaba/wan-2-7-i2v": [
+   "generate_audio",
+   "shot_type"
+  ],
+  "alibaba/wan-2-7-r2v": [
+   "generate_audio",
+   "shot_type"
+  ],
+  "alibaba/wan2.2-i2v-plus": [
+   "duration"
+  ],
+  "alibaba/wan2.2-t2i-flash": [
+   "enhance_prompt"
+  ],
+  "alibaba/wan2.2-t2i-plus": [
+   "enhance_prompt"
+  ],
+  "alibaba/wan2.5-t2i-preview": [
+   "enhance_prompt"
+  ],
+  "alibaba/wan2.7-i2v": [
+   "generate_audio",
+   "shot_type"
+  ],
+  "alibaba/wan2.7-r2v": [
+   "generate_audio",
+   "shot_type"
+  ],
+  "blackforestlabs/flux-2-max-edit": [
+   "guidance_scale"
+  ],
+  "blackforestlabs/flux-2-pro-edit": [
+   "guidance_scale"
+  ],
+  "bytedance/seedance-1-0-pro": [
+   "aspect_ratio"
+  ],
+  "bytedance/seedance-1-0-pro-fast": [
+   "aspect_ratio"
+  ],
+  "flux-2": [
+   "safety_tolerance"
+  ],
+  "flux-2-max/edit": [
+   "guidance_scale"
+  ],
+  "flux/dev/image-to-image": [
+   "acceleration",
+   "image_size"
+  ],
+  "google/veo-3.1-reference-to-video": [
+   "aspect_ratio"
+  ],
+  "google/veo-3.1-t2v": [
+   "enhance_prompt",
+   "negative_prompt",
+   "seed"
+  ],
+  "google/veo-3.1-t2v-fast": [
+   "enhance_prompt",
+   "negative_prompt",
+   "seed"
+  ],
+  "google/veo2": [
+   "resolution"
+  ],
+  "google/veo2-image-to-video": [
+   "resolution"
+  ],
+  "happyhorse-1.0-i2v": [
+   "enhance_prompt",
+   "generate_audio",
+   "negative_prompt",
+   "shot_type"
+  ],
+  "happyhorse-1.0-r2v": [
+   "enhance_prompt",
+   "generate_audio",
+   "negative_prompt",
+   "shot_type"
+  ],
+  "happyhorse-1.0-t2v": [
+   "enhance_prompt",
+   "generate_audio",
+   "negative_prompt",
+   "shot_type"
+  ],
+  "kling-video/v1.6/pro/image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "kling-video/v1.6/standard/image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "kling-video/v1.6/standard/text-to-video": [
+   "camera_control"
+  ],
+  "kling-video/v1/pro/image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "kling-video/v1/standard/image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "kling-video/v2.1/master/image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "kling-video/v2.1/master/text-to-video": [
+   "camera_control"
+  ],
+  "kling-video/v2.1/pro/image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "kling-video/v2.1/standard/image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "kling-video/v2.5-turbo/pro/text-to-video": [
+   "camera_control"
+  ],
+  "kling-video/v2.6/pro/image-to-video": [
+   "aspect_ratio",
+   "cfg_scale"
+  ],
+  "kling-video/v2/master/image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "kling-video/v2/master/text-to-video": [
+   "camera_control"
+  ],
+  "klingai/v2-master-image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "klingai/v2.1-master-image-to-video": [
+   "aspect_ratio",
+   "camera_control"
+  ],
+  "klingai/v2.1-master-text-to-video": [
+   "camera_control"
+  ],
+  "klingai/v2.5-turbo/pro/text-to-video": [
+   "camera_control"
+  ],
+  "klingai/video-o1-image-to-video": [
+   "aspect_ratio",
+   "camera_control",
+   "cfg_scale",
+   "negative_prompt"
+  ],
+  "klingai/video-o1-reference-to-video": [
+   "camera_control",
+   "cfg_scale",
+   "negative_prompt"
+  ],
+  "klingai/video-v2-6-pro-image-to-video": [
+   "aspect_ratio",
+   "cfg_scale"
+  ],
+  "pixverse/v5-5-image-to-video": [
+   "aspect_ratio"
+  ],
+  "pixverse/v5.5/image-to-video": [
+   "aspect_ratio"
+  ],
+  "pixverse/v5/image-to-video": [
+   "aspect_ratio",
+   "generate_audio_switch"
+  ],
+  "pixverse/v5/text-to-video": [
+   "generate_audio_switch"
+  ],
+  "pixverse/v5/transition": [
+   "aspect_ratio",
+   "generate_audio_switch"
+  ],
+  "runway/gen4_aleph": [
+   "aspect_ratio"
+  ],
+  "veo2": [
+   "resolution"
+  ],
+  "veo2/image-to-video": [
+   "resolution"
+  ],
+  "wan2.2-i2v-plus": [
+   "duration"
+  ],
+  "wan2.2-t2i-flash": [
+   "enhance_prompt"
+  ],
+  "wan2.2-t2i-plus": [
+   "enhance_prompt"
+  ],
+  "wan2.5-t2i-preview": [
+   "enhance_prompt"
+  ],
+  "wan2.7-i2v": [
+   "generate_audio",
+   "shot_type"
+  ],
+  "wan2.7-r2v": [
+   "generate_audio",
+   "shot_type"
+  ],
+  "x-ai/grok-imagine-image": [
+   "seed"
+  ],
+  "x-ai/grok-imagine-image-pro": [
+   "seed"
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or reference this software, please cite it as below."
+title: "GenStation"
+abstract: >-
+  A native macOS and iOS client for cloud and local AI image and video generation
+  (Google Gemini, xAI Grok, AI/ML API and ComfyUI), with a local generation history
+  and an optional macOS Model Context Protocol (MCP) bridge for AI agents.
+type: software
+authors:
+  - family-names: "Rockey"
+    given-names: "William"
+version: "2.1"
+date-released: "2026-10-19"
+license: MIT
+keywords:
+  - image generation
+  - video generation
+  - SwiftUI
+  - macOS
+  - iOS
+  - ComfyUI
+  - Model Context Protocol

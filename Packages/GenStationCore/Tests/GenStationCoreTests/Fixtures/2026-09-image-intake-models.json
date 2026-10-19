@@ -1,0 +1,74 @@
+[
+  {
+    "id": "openai/gpt-image-2.5-flare",
+    "info": {
+      "releasedAt": "2026-09-09",
+      "developer": "Open AI",
+      "description": "",
+      "name": "GPT Image 2.5 Flare",
+      "docsJson": "https://api.aimlapi.com/docs-json?model=openai%2Fgpt-image-2.5-flare&endpoint=openai%2Fimage-editing"
+    },
+    "type": "openai/image-editing",
+    "aliases": [
+      "gpt-image-2.5-flare"
+    ],
+    "tags": [
+      "playground:image",
+      "tier:tier_2"
+    ]
+  },
+  {
+    "id": "openai/gpt-image-2.5-flare",
+    "info": {
+      "releasedAt": "2026-09-09",
+      "developer": "Open AI",
+      "description": "",
+      "name": "GPT Image 2.5 Flare",
+      "docsJson": "https://api.aimlapi.com/docs-json?model=openai%2Fgpt-image-2.5-flare&endpoint=openai%2Fimage-generations"
+    },
+    "type": "openai/image-generations",
+    "aliases": [
+      "gpt-image-2.5-flare"
+    ],
+    "tags": [
+      "playground:image",
+      "tier:tier_2"
+    ]
+  },
+  {
+    "id": "openai/gpt-image-2.5-sunburst",
+    "info": {
+      "releasedAt": "2026-09-09",
+      "developer": "Open AI",
+      "description": "",
+      "name": "GPT Image 2.5 Sunburst",
+      "docsJson": "https://api.aimlapi.com/docs-json?model=openai%2Fgpt-image-2.5-sunburst&endpoint=openai%2Fimage-editing"
+    },
+    "type": "openai/image-editing",
+    "aliases": [
+      "gpt-image-2.5-sunburst"
+    ],
+    "tags": [
+      "playground:image",
+      "tier:tier_2"
+    ]
+  },
+  {
+    "id": "openai/gpt-image-2.5-sunburst",
+    "info": {
+      "releasedAt": "2026-09-09",
+      "developer": "Open AI",
+      "description": "",
+      "name": "GPT Image 2.5 Sunburst",
+      "docsJson": "https://api.aimlapi.com/docs-json?model=openai%2Fgpt-image-2.5-sunburst&endpoint=openai%2Fimage-generations"
+    },
+    "type": "openai/image-generations",
+    "aliases": [
+      "gpt-image-2.5-sunburst"
+    ],
+    "tags": [
+      "playground:image",
+      "tier:tier_2"
+    ]
+  }
+]

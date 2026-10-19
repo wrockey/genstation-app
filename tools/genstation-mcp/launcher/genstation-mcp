@@ -1,0 +1,6 @@
+#!/bin/sh
+# Keep the client-facing path stable; the signed app executable owns the sandbox.
+# Resolve relative to this file, never PATH or Launch Services' bundle-ID selection.
+set -eu
+contents=$(CDPATH= cd -P -- "$(dirname -- "$0")/.." && pwd)
+exec "$contents/MacOS/GenStation" --genstation-mcp

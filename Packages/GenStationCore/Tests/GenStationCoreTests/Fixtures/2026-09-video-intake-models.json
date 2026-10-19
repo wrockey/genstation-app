@@ -1,0 +1,58 @@
+[
+  {
+    "id": "minimax/h3-max",
+    "info": {
+      "releasedAt": "2026-08-26",
+      "name": "MiniMax H3 Max",
+      "developer": "Minimax AI",
+      "description": "MiniMax H3 Max is a post-trained H3 video model tuned for faster generation and closer prompt adherence, producing 5-15 second clips at 480p or 768p and 24 fps with native stereo audio, from text, a first/last frame, or reference images, video and audio.",
+      "docsUrl": "https://docs.aimlapi.com/api-references/video-models/minimax/h3-max",
+      "docsJson": "https://api.aimlapi.com/docs-json?model=minimax%2Fh3-max&endpoint=internal%2Fvideo-generations%2Fsubmit"
+    },
+    "type": "internal/video-generations/submit",
+    "aliases": [
+      "minimax/h3-max/image-to-video",
+      "minimax/h3-max/reference-to-video",
+      "minimax/h3-max/text-to-video"
+    ],
+    "tags": [
+      "playground:video",
+      "tier:tier_2"
+    ]
+  },
+  {
+    "id": "bytedance/seedance-2-5",
+    "info": {
+      "releasedAt": "2026-08-07",
+      "name": "Seedance 2.5",
+      "developer": "ByteDance",
+      "description": "Seedance 2.5 is a ByteDance video generation model with multi-reference conditioning and synchronized audio.",
+      "isHottest": true,
+      "docsJson": "https://api.aimlapi.com/docs-json?model=bytedance%2Fseedance-2-5&endpoint=internal%2Fvideo-generations%2Fsubmit"
+    },
+    "type": "internal/video-generations/submit",
+    "aliases": [
+      "bytedance/seedance-2.5"
+    ],
+    "tags": [
+      "playground:video",
+      "tier:tier_2"
+    ]
+  },
+  {
+    "id": "alibaba/wan-3-0-video",
+    "info": {
+      "releasedAt": "2026-08-06",
+      "developer": "Alibaba Cloud",
+      "description": "Wan 3.0 \u2014 an all-in-one reference-based video generation model by Alibaba Cloud. It supports text-to-video, image-to-video (first/last frame), and reference-based generation from images, videos, audio, documents, and web links, producing videos up to 30 seconds long.",
+      "name": "Wan 3.0 Video",
+      "docsJson": "https://api.aimlapi.com/docs-json?model=alibaba%2Fwan-3-0-video&endpoint=internal%2Fvideo-generations%2Fsubmit"
+    },
+    "type": "internal/video-generations/submit",
+    "aliases": [],
+    "tags": [
+      "playground:video",
+      "tier:tier_2"
+    ]
+  }
+]
